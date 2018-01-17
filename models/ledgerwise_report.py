@@ -237,7 +237,7 @@ class res_partner(models.Model):
 	
 	@api.model
     	def name_search(self, name, args=None, operator='ilike',limit=100):
-    		# used in move to location validation wizard
+    		# inherite method to get filter data by context value
     		if self._context.get('ledger') :
     			if not self._context.get('ledger_type'):
     				return []
