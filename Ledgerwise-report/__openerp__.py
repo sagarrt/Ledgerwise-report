@@ -24,7 +24,7 @@
     'description': ''' view Customer and Supplier ledger report
                        shows all customer and vender outstanding opening balance according date.
                        print both report''',
-    'author': 'test-odoo',
+    'author': 'my-odooApp',
     'website': 'www.test.com',
     'depends': ['account','product'],
     'data': [
