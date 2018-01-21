@@ -18,7 +18,7 @@
 {
     'name': 'Ledgerwise report', 
     'version': '1.0',
-    'category': 'accounting',
+    'category': 'Accounting',
     'sequence': 1020,
     'summary': 'Manage to view and print ledgerwise report',
     'description': ''' view Customer and Supplier ledger report
