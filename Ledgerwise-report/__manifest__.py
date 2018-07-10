@@ -17,16 +17,19 @@
 ##############################################################################
 {
     'name': 'Ledgerwise report', 
-    'version': '1.0',
+    'version': '11.0',
     'category': 'Accounting',
-    'sequence': 1020,
+    'sequence': 2001,
     'summary': 'Manage to view and print ledgerwise report',
-    'description': ''' view Customer and Supplier ledger report
-                       shows all customer and vender outstanding opening balance according date.
-                       print both report''',
+    'description': ''' View Customer and Supplier ledger report, in Detailed and Summary.
+                       Shows all customer and vender outstanding opening balance according date.
+                       Employee Ledger-report(Payable/Receviable and other).
+                       Account Ledger-report in summary and detailed.
+                       print all report in PDF format''',
+                       
     'author': 'my-odooApp',
     'website': 'www.test.com',
-    'depends': ['account','product'],
+    'depends': ['account','product','hr'],
     'data': [
                 'views/ledgerwise_report.xml',
                 'wizard/report_ledgerwise_detailed.xml',

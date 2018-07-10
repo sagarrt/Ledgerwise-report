@@ -16,4 +16,4 @@
 ##############################################################################
 
 
-import ledgerwise_report
+from . import ledgerwise_report
