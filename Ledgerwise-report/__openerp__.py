@@ -26,6 +26,7 @@
                        print both report''',
     'author': 'my-odooApp',
     'website': 'www.test.com',
+    'license':'LGPL-3',
     'depends': ['account','product'],
     'data': [
                 'views/ledgerwise_report.xml',
