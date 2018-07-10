@@ -24,11 +24,9 @@
     'description': ''' view Customer and Supplier ledger report
                        shows all customer and vender outstanding opening balance according date.
                        print both report''',
-    'author': 'Odoo_Developer_SRT',
+    'author': 'Developer_SRT',
     'website': 'www.test.com',
     'license':'LGPL-3',
-    'price':50,
-    'currency':'EUR',
     'depends': ['account','product'],
     'data': [
                 'views/ledgerwise_report.xml',
