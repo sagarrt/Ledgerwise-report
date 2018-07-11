@@ -27,8 +27,11 @@
                        Account Ledger-report in summary and detailed.
                        print all report in PDF format''',
                        
-    'author': 'my-odooApp',
+    'author': 'Developer_SRT',
     'website': 'www.test.com',
+    'price':'100',
+    'currency':'EUR',
+    'licence':'LGPL-3',
     'depends': ['account','product','hr'],
     'data': [
                 'views/ledgerwise_report.xml',
