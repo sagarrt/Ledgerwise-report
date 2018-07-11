@@ -17,10 +17,10 @@
 ##############################################################################
 {
     'name': 'Ledgerwise report', 
-    'version': '1.0',
+    'version': '9.0',
     'category': 'Accounting',
     'sequence': 1020,
-    'summary': 'Manage to view and print ledgerwise report',
+    'summary': 'View and Print ledgerwise report(Customer/Supplier)',
     'description': ''' view Customer and Supplier ledger report
                        shows all customer and vender outstanding opening balance according date.
                        print both report''',
