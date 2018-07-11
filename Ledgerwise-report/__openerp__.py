@@ -27,6 +27,8 @@
     'author': 'Developer_SRT',
     'website': 'www.test.com',
     'license':'LGPL-3',
+    'price':'20',
+    'currency':'EUR',
     'depends': ['account','product'],
     'data': [
                 'views/ledgerwise_report.xml',
