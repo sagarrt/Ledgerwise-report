@@ -29,8 +29,6 @@
                        
     'author': 'Developer_SRT',
     'website': 'www.test.com',
-    'price':'100',
-    'currency':'EUR',
     'licence':'LGPL-3',
     'depends': ['account','product','hr'],
     'data': [
