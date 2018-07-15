@@ -30,7 +30,7 @@
     'author': 'Developer_SRT',
     'website': 'www.test.com',
     'licence':'LGPL-3',
-    'price':'50',
+    'price':'20',
     'currency':'EUR',
     'depends': ['account','product','hr'],
     'data': [
